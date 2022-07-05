@@ -1,0 +1,12 @@
+::
+users: users_id, firstname, lastname, email, password
+users_role, 11 users, 0N roles
+roles: role_id, name
+
+belong, 0N users, 0N recipes
+
+steps: steps_id, stepNumber,description
+progress, 1N steps, 11 recipes
+recipes: recipes_id, title, description, prepTime, cookingTime, imageLink, numberOfPersons
+contains, 1N recipes, 1N ingredients : ingredients_id, recipes_id, quantity
+ingredients: ingredients_id, name
