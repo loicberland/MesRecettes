@@ -1,0 +1,48 @@
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+:root{
+    --black-color : #000000;
+    --gray1-color : #484848;
+    --gray2-color : #797979;
+    --gray3-color : #A9A9A9;
+    --gray4-color : #D9D9D9;
+    --white-color : #FFFFFF;
+    --primary100-color : #129575;
+    --primary80-color : #71B1A1;
+    --primary60-color : #AFD3CA;
+    --primary40-color : #DBEBE7;
+    --primary20-color : #F6FAF9;
+    --secondary100-color : #FF9C00;
+    --secondary80-color : #FF761A;
+    --secondary60-color : #FFBA4D;
+    --secondary40-color : #FFCE80;
+    --secondary20-color : #FFE1B3;
+    --rating-color : #FFAD30;
+    --Warning100-color : #FD3654;
+    --Warning100-color : #FFE1E7;
+    --Success-color : #31B057;
+
+    --font-family : 'Poppins', sans-serif;
+                                
+    --text-title-size : 3.125rem;      /*50 px*/                 
+    --text-subtitle-size : 1.875rem;   /*30 px*/                 
+    --text-xl-size : 1.25rem;          /*20 px*/         
+    --text-l-size : 1.125rem;          /*18 px*/         
+    --text-size : 1rem;                /*16 px*/ 
+    --text-s-size : 0.875rem;          /*14 px*/         
+    --text-xs-size : 0.6875rem;        /*11 px*/             
+    
+    --text-title-line-height : 4.6875rem;       /*75 px */
+    --text-subtitle-line-height : 2.8125rem;    /*45 px */
+    --text-xl-line-height : 1.875rem;           /*30 px */
+    --text-l-line-height : 1.6875rem;           /*27 px */
+    --text-line-height : 1.5rem;                /*24 px */
+    --text-s-line-height : 1.3125rem;           /*21 px */
+    --text-xs-line-height : 1.0625rem;          /*17 px */
+                            
+}
+
+*{
+    font-size: 16px;
+    font-family: var(--font-family);
+}

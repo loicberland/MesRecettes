@@ -1,0 +1,29 @@
+#main__container{
+    padding: 2rem 3rem;
+}
+.main__title{
+    font-size: var(--text-xl-size);
+    line-height: var(--text-xl-line-height);
+    font-weight: bold;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.center{
+    text-align: center;
+}
+.card__container{
+    margin: 2rem 0;
+}
+.card{
+    max-height: 150px;
+}
+.card-info{
+    display: flex;
+}
+.card-title{}
+.card__timer{}
+.card__timer-object{}
+.card-icon{}
+.card__timer-text{}
+.card__timer-object{}
+.card-icon{}
+.card__timer-text{}
